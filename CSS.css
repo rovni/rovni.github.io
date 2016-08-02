@@ -1,0 +1,122 @@
+body {
+	font-family: sans-serif;
+	background-image: url(knitted-netting_@2X.png);
+}	
+a {text-decoration: none;
+}
+img {
+   max-width: 100%;
+   height: auto;
+   width: auto\9; /* ie8 */
+}
+li {
+   margin: 5px;
+}
+.post {
+   text-align: justify;
+}
+.main_img {
+  height: 200px; 
+}
+.top_img {
+   height: 100%;
+}
+.widget-name {
+   width:100%; 
+}
+.other-production-item {
+display: inline-block;
+}
+.item-name {
+}
+.item-image a img{
+   width: 90px;
+   height: 90px;
+   overflow: hidden;
+   border: 1px solid black;
+}
+#button {
+   border-radius: 5px;
+   border: 1px solid black;
+   background-color: #004fd0;
+   width: 120px;
+   padding: 10px;
+   margin: auto;
+   text-align: center;
+   text-decoration: none;
+   color: black;
+}
+#pagewrap {
+   width: 1100px;
+   margin: 0 auto;
+   border-radius: 10px;
+}
+#header {
+   height: 160px;
+   }
+#content {
+   width: calc(100% - 370px);
+   float: left;
+   margin: 10px 10px 10px 10px;
+   padding: 10px 10px 10px 10px;
+   border-radius: 10px;
+   background-image: url(grey_wash_wall.png);
+}
+#sidebar {
+   width: 330px;
+   float: right;
+   border-radius: 10px;  
+}
+.footer {
+   clear: both;
+   margin: 5px 5px 5px 5px;
+   padding: 5px 5px 5px 5px;
+   border-radius: 5px;
+   background-image: url(grey_wash_wall.png);
+}
+.widget {
+   border-radius: 10px;
+   background-image: url(grey_wash_wall.png);
+   padding: 10px 10px 10px 10px;
+   margin: 10px 10px 10px 10px;
+}
+/* Адаптивный дизайн Блеать!!! */
+@media screen and (max-width: 980px) {
+   #pagewrap {
+      width: auto;
+      padding: 0 10px;
+   }
+   #header {
+      height: auto;
+   }
+   #site-logo {
+      margin: 15px 100px 5px 0;
+      position: static;
+   }
+   #content {
+      width: auto;
+      float: none;
+      margin: 20px 0;
+   }
+   #sidebar {
+      width: 100%;
+      float: none;
+      margin: 0;
+   }
+}
+@media screen and (max-width: 650px) {
+   .main_img {
+      height: auto;
+   }
+   .main_img img {
+      width: 100%;
+      max-width: 300px;
+      margin: auto;
+      height: auto;
+   }
+}
+@media screen and (max-width: 480px) {
+   html {
+      -webkit-text-size-adjust: none;
+   }  
+}
